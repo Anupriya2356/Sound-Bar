@@ -281,3 +281,23 @@
       line-height: 1.4;
       font-style: italic;
     }
+
+    /* style.css additions */
+.sound-btn {
+  padding: 12px 20px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.sound-btn:hover {
+  transform: scale(1.1);
+  background-color: #f0a500;
+  color: white;
+}
+
+.slider {
+  accent-color: #f0a500; /* slider track color */
+}
